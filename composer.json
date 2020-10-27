@@ -1,10 +1,42 @@
 {
+    "name": "les-enovateurs/example-phpcs-ci",
+    "description": "An example of GitHub Actions with PHPCS check",
+    "keywords": [
+        "php",
+        "phpcs",
+        "github",
+        "actions",
+        "CI"
+    ],
+    "homepage": "https://les-enovateurs.com",
+    "authors": [
+        {
+            "name": "Les Enovateurs",
+            "email": "contact@les-enovateurs.com",
+            "homepage": "https://les-enovateurs.com"
+        },
+        {
+            "name": "Contributors",
+            "homepage": "https://github.com/les-enovateurs/example-phpcs-ci/graphs/contributors"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/les-enovateurs/example-phpcs-ci/issues",
+        "source": "https://github.com/les-enovateurs/example-phpcs-ci",
+        "forum": "https://les-enovateurs.com"
+    },
+    "require": {
+        "php": ">=7.2"
+    },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.5"
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "archive": {
         "exclude": [
-            "/.github"
+            "/.github",
+            "phpcs.xml.dist"
         ]
     }
 }
